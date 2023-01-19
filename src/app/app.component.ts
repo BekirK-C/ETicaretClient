@@ -11,8 +11,7 @@ declare var $: any
 })
 export class AppComponent {
   title = 'ETicaretClient';
-  constructor(private toastrService: CustomToastrService){
-    toastrService.message("merhaba", "ben Bekir", {messageType: ToastrMessageType.Info, position: ToastrPosition.TopCenter})
+  constructor(){
   }
 }
 
