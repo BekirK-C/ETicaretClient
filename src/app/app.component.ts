@@ -14,5 +14,3 @@ export class AppComponent {
   constructor(){
   }
 }
-
- $.get("https://localhost:7253/api/products");
